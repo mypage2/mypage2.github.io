@@ -1,0 +1,165 @@
+
+<!doctype html>
+<html >
+    <head  >
+        <title>mi primera pagina</title>
+        <style>
+                h3{
+                    color: yellow;
+                }
+        </style>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+        <h1 style="color: red;">Titulo de mi pagina seccion</h1>
+        hola mundo
+        <h2>Titulo de mi pagina seccion</h2>
+
+        <h3 class="novisible">Titulo de mi pagina seccion</h3>
+
+        <h4>Titulo de mi pagina seccion</h4>
+        
+        <h5 id="titulo 5" class="tituloverde">Titulo de mi pagina seccion</h5>
+        <h5 id="titulorosa" class="tituloarticulo">verde 24</h5>
+        
+        <h6>Titulo de mi pagina seccion</h6>
+        <p class="tituloverde">
+            hola hola hola holahola <b>para negrita</b> holahola holahola holahola holahola holahola hola
+            hola holahola holahola holahola holahola holahola holahola holahola hola
+            hola holahola holahola holahola holahola holahola holahola<br> <br> holahola holahola hola
+            hola holahola holahola holahola holahola holahola holahola holahola holahola hola
+            hola holahola holahola hola<u><b><i>cursiva</i></b></u>holahola holahola holahola hola
+            hola holahola holahola holahola holahola holahola holahola holahola holahola hola
+        </p>
+        <p>
+                hola holahola holahola holahola holahola holahola holahola holahola holahola hola
+                hola holahola holahola holahola holahola<br> holahola holahola holahola 
+                hola holahola holahola holahola holahola holahola holahola holahola holahola hola
+        </p>
+        <!--para comentarios
+        seccion imagen
+    png tiene transparencia
+    jpg tiene bordes 
+    svg averiguar
+    vectorizar logos iconos en firmato svg
+    /  para directorio
+    alt para descripcion
+    -->
+        <img src="gore.jpg">
+        <img src="silent.gif">
+        <h2>lente de camara</h2>
+        <img src="img/foto.jpg" alt="lente camara">
+        <h2>imagen de otra pagina</h2>
+        <img src="https://www.diligent.es/wp-content/uploads/2017/05/como-hacer-buenas-fotografias-con-el-movil-.jpg">
+     <!--seccion enlaces link
+    su etiqueta <a> necesita atributos
+        sus rutaas pueden serinternas o externas
+        target para no salir de tu pagina
+        imagen como enlace mediante atributos anidados
+    -->
+        <a href="img/foto.jpg">mi primer enlace interno</a>
+        <br>
+
+        <a href="paginas/imagenes.html">enlace interno</a>
+        <h2>enlace externo</h2>
+        <a href="https://www.lostiempos.com/" target="_blank">pagina los tiempos</a>
+        <a href="https://www.lostiempos.com/" target="_blank"><img src="silent.gif"></img></a>
+
+        <h2>enlazar a correos</h2>
+        <a href="mailto:oliverios@outlook.com">escribeme a mi correo</a>
+
+<!--seccion tablas
+etiqueta table
+primero las filas con la etiqueta tr
+y columnas td
+poner mas de dos columnas
+
+-->
+<table>
+        <thead>
+        <tr>
+            <td>Nombres</td>
+            <td>Carrera</td>
+            <td>Semestre</td>
+        </tr>
+    </thead>
+        <tr>
+                <td>Oliver</td>
+                <td>Sistemas</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                    <td>Lalo</td>
+                    <td>Sistemas</td>
+                    <td>8</td>
+                </tr>
+</table>
+<!--formularios
+etiqueta form
+-->
+<form action="ejecutar.php">
+    <label>nombre:</label>
+    <input type="text" name="Nombre">
+    <label>password:</label>
+    <input type="password" name="pass"> <br> <br>
+    <textarea></textarea><br><br>
+    <label>sexo:</label>
+    <label>hombre</label>
+    <input type="radio" name="sexo">
+    <label>mujer</label>
+    <input type="radio" name="sexo">
+    <br><br>
+    Cochabamba <input type="checkbox"name="departamento">
+     Oruro <input type="checkbox"name="departamento">
+     Lapaz <input type="checkbox"name="departamento">
+     <br> <br>
+     <select>
+         <option>Wilsterman</option>
+         <option>Bolivar</option>
+         <option>Real Potosi</option>
+         <option>The Strongest</option>
+     </select>
+     <button class="btn btn-link">enviar</button>
+
+</form>
+<!--lista 
+listas ordenadas y no ordanadas 
+ul para no ordenadas
+ol para ordenadas
+se puede anidar listas dentro de otras listas
+source poner los recursos para que de en diferentes navegadores
+-->
+<ul>
+    <li>Cochabamba</li>
+    <li>Santa Cruz</li>
+    <li>Oruro</li>
+</ul>
+<ol>
+        <li>Cochabamba</li>
+        <li>Santa Cruz</li>
+        <li>Oruro</li>
+    </ol>
+    <video controls>
+        <source src="videos/ski.webm" type="video/webm">
+    </video>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
+<!--
+    google font incules suentes a tu stilo css
+    display para en linea y no en bloque
+
+    1 contenido
+    2 padding
+    3 border
+    4 margin
+https://startbootstrap.com/themes/freelancer/ para  templates
+
+-->

@@ -1,0 +1,36 @@
+/*https://html-color-codes.info/
+.tiutloverde con class
+p.tituloverde con etiqueta
+se puede ocultar elementos
+*/
+h4{
+    color: blue;
+    font-size: 25px;
+    /*background: black;*/
+    background-image: url(gore.jpg);
+    display:inline;
+    margin: 25px 25px 25px 25px;
+    padding: 20px;
+    border: solid 2px blue;
+
+}
+button{
+    background:red;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+p.tituloverde{
+    color: #00FF00;
+}
+p.tituloverde i{
+    color: #0B3B17;
+}
+#titulorosa{
+    color: #F6CEEC;
+    font-size: 25px;
+}
+.novisible{
+    display: none;
+}
